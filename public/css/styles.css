@@ -193,22 +193,7 @@
     margin-right: 15px;
     }
 
-    .product-container .description{
-        display: none;
-      }
-   
-      .product-box:hover{
-          box-shadow: 8px 8px 10px rgb(100, 100, 100);
-      }
-  
-      .product-box:hover .description{
-          display: block;
-        }
-      
-      .truck:hover{
-          transform: rotateZ(90deg);
-      }
-
+    
 
       
 
@@ -470,6 +455,13 @@
         background-color: #0022AA;
     }
 
+    .copyright{
+        text-align: center;
+        font-size: 15px;
+        color: gray;
+        
+    }
+
     
 
 
@@ -510,6 +502,33 @@
     .main-navbar li{
         margin: 0 5px;
     }
+
+    .product-section3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .product-section4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-section5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-section6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
     
 }
 
@@ -518,7 +537,7 @@ footer{
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
     .main-header-top-bar, .main-navbar{
         max-width: 1200px;
         margin: auto;
@@ -564,6 +583,44 @@ footer{
   .footer-section-title{
       width: auto;
   }
+  .product-container .description{
+    display: none;
+  }
+
+  .product-box:hover{
+      box-shadow: 8px 8px 10px rgb(100, 100, 100);
+  }
+
+  .product-box:hover .description{
+      display: block;
+    }
+  
+  .truck:hover{
+      transform: rotateZ(90deg);
+  }
+
+  .main-footer{
+      display: flex;
+      margin: 5px 30px 5px 30px;
+      
+  }
+
+  .footer-1{
+      margin: 10px;
+  }
+
+  .footer-2{
+      margin: 10px;
+  }
+
+  .footer-3{
+      margin: 10px
+  }
+
+  footer p{
+      color: gray;
+  }
+  
 
 
 }
